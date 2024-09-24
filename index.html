@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English to Sinhala Wijesekara Typing Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #inputText {
+            width: 100%;
+            height: 100px;
+            font-size: 18px;
+        }
+
+        #outputText {
+            width: 100%;
+            height: 100px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>English to Sinhala Wijesekara Typing Tool</h1>
+
+    <label for="inputText">Type in English (Wijesekara layout will be applied):</label><br>
+    <textarea id="inputText" placeholder="Type in English..."></textarea>
+
+    <label for="outputText">Output in Sinhala:</label><br>
+    <textarea id="outputText" readonly></textarea>
+
+    <script src="wijesekaraConverter.js"></script>
+
+</body>
+</html>
